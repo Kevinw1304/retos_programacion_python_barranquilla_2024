@@ -16,8 +16,8 @@ def resta (n,m):
     return n    
 
 def multiplicación (n,m):
-     acumulador = 0
-     for i in range (m):
+    acumulador = 0
+    for i in range (m):
         acumulador=suma(acumulador,n)
     return acumulador    
 
